@@ -10,3 +10,6 @@ class TestAnimal(unittest.TestCase):
 
     def test_animal_name(self):
         self.assertEqual("Dougal Miller", self.animal_1.name)
+
+    def test_animal_date_of_birth(self):
+        self.assertEqual("14th August 1996", self.animal_1.date_of_birth)
