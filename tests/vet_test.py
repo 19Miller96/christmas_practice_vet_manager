@@ -11,3 +11,6 @@ class TestVet(unittest.TestCase):
     def test_name_returns(self):
         self.assertEqual("Jonathan Miller", self.vet_1.name)
 
+    def test_age_returns(self):
+        self.assertEqual(24, self.vet_1.age)
+
