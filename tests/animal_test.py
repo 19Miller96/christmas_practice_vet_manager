@@ -19,3 +19,6 @@ class TestAnimal(unittest.TestCase):
     
     def test_animal_owner_info(self):
         self.assertEqual("Susan Boyle", self.animal_1.owner_info)
+
+    def test_animal_treatment_notes(self):
+        self.assertEqual("Broken Leg", self.animal_1.treatment_notes)
