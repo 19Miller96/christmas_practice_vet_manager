@@ -14,9 +14,9 @@ def save(vet):
 
 def select_all():
     vets = []
-
     sql = "SELECT * FROM vets"
     results = run_sql(sql)
+    
     for row in results:
         vet = Vet(row['name'], row['age'])
         vets.append(vet)
