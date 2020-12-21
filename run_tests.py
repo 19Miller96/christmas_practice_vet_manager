@@ -6,4 +6,4 @@ from tests.vet_test import TestVet
 if __name__ == "__main__":
     unittest.main()
 
-# psql -d shop_inventory -f db/shop_inventory.sql
+# psql -d vet_manager -f db/vet_manager.sql

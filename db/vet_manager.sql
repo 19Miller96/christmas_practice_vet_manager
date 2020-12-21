@@ -1,13 +1,13 @@
-DROP Table animals
-DROP Table vets
+DROP TABLE animals;
+DROP TABLE vets;
 
-CREATE Table vets (
+CREATE TABLE vets (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255),
     age VARCHAR(255)
 );
 
-CREATE animals (
+CREATE TABLE animals (
     id SERIAL PRIMARY KEY,
     name VARCHAR(255),
     date_of_birth VARCHAR(255),
